@@ -35,3 +35,7 @@ type Point = { x: number; y: number };
 
 const userId: ID = "EMP-404";
 const coordinate: Point = { x: 5, y: 10 };
+```
+#### Conclusion
+Lastly, choosing between type aliases and interfaces depends on our architectural needs. we will use interfaces for object blueprints, class contracts and features requiring declaration merging. Meanwhile, leverage type aliases when working with primitive types, unions, and flexible type compositions.
+
