@@ -7,8 +7,6 @@ Type system is very important for building scalable applications. At the time of
 
 ---
 
-### Detailed Body Paragraphs
-
 #### Type Aliases
 A type alias is used to give a name to any type. While it is generally a best practice not to use type aliases in class declarations, they are very useful for declaring primitive types, union types and complex data structures.
 
@@ -36,6 +34,8 @@ type Point = { x: number; y: number };
 const userId: ID = "EMP-404";
 const coordinate: Point = { x: 5, y: 10 };
 ```
+---
+
 #### Conclusion
 Lastly, choosing between type aliases and interfaces depends on our architectural needs. we will use interfaces for object blueprints, class contracts and features requiring declaration merging. Meanwhile, leverage type aliases when working with primitive types, unions, and flexible type compositions.
 
